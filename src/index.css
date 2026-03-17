@@ -1,6 +1,6 @@
 :root {
-  --bg: #0b1220; /* azul oscuro */
-  --panel: #0f1b2d;
+  --bg: #4b0b0b; /* rojo oscuro */
+  --panel: #111827; /* gris industrial */
   --border: #223247;
 
   --text: #cbd5e1;
@@ -32,7 +32,7 @@ body {
   margin: 0;
   background: radial-gradient(
       1200px 800px at 50% -10%,
-      color-mix(in oklab, var(--accent), transparent 86%),
+      color-mix(in oklab, #ef4444, transparent 86%),
       transparent
     ),
     var(--bg);
